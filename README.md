@@ -58,7 +58,14 @@ Esperamos que a los que leáis estas líneas os haya cautivado la idea y os uná
 ### Tecnología utilizada
 
 #### Dependencias
-- **{{Nombre libreria/framework}}**: {{Explicación de su uso}}
+**Front-end**
+- **Vue.js**: {{Explicación de su uso}}
+- **D3.js**: {{Explicación de su uso}}
+
+**Back-end**
+- **Goku**: Hosting para documentaciones
+- **MongoDB**:
+- **Mosca**: Broker MQTT para nodeJS
 
 ### Cómo contribuir en el proyecto
 {{Pequeña descripción motivante para enganchar con l@s potenciales contributors}}
@@ -78,7 +85,7 @@ Esperamos que a los que leáis estas líneas os haya cautivado la idea y os uná
 
 ### Estado del proyecto.
 
-Actualmente nos encontramos en fase de conceptualización. Estamos en el sprint 0 del proyecto, en la cual se espera que para el siguiente sprint ya tengamos las tecnologías y los materiales a nuestro alcance.
+Actualmente nos encontramos en fase de conceptualización. Estamos en el sprint 0 del proyecto, en la cual se espera que para el siguiente sprint ya tengamos las tecnologías y los materiales a nuestro alcance (Fin 30 de Marzo).
 
 
 ### Releases anteriores
