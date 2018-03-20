@@ -8,15 +8,20 @@ Es un documento muy vivo, por lo que te recomendamos que lo revises cada poco ti
 
 Aquí se definen todas las funcionalidades que componen nuestro producto final.
 
-- **{{Funcionalidad Nombre}}:** {{Descripción Corta}}
-- ...
-
+- **Sacar todos los datos posibles del coche:** {{Descripción Corta}}
+- **Almacenar la información del coche en una base de datos:** {{Descripción Corta}}
+- **La información debe ser compatible con APIRest y Matlab:** {{Descripción Corta}}
+- **Visualización por web de los datos críticos en tiempo real** {{Descripción Corta}}
+- **El coche no contará con una estación en tierra** Por lo que el coche debera de ser capaz de conectar a internet por si mismo (4G)
+- **El sistema debe ser fuerte e independiente** El coche necesita correr en paises extrajeros y en condiciones duras, especialmente calor.
+- **Admás del Arduino y sus sensores debemos ocuparnos de la ECU** Es interesante poder extraer la información que se pueda y se envie al servidor
+- **El sistema debe ser calibrable** {{Descripción Corta de Paco y @Bifuer}}
 
 #### Backlog técnico
 
 Aquí se definen todas las funcionaldiades de caracter tecnico que necsitamos desarrollar/integrar en nuestro producto
 
-- **{{Funcionalidad Nombre}}:** {{Descripción Corta}}
+- **Arduino Mega con código a pelo:** El Arduino mega gestionará la lectura e interpretación básica de la información
 - ...
 
 #### Otros elementos
