@@ -50,6 +50,7 @@ Los integrantes de los equipos son:
  - [Daniel Gómez (@dagomezl)](https://github.com/dagomezl) Líder del equipo Formula UC3M
  - [Rubén Moreno (@rubenmoreno94)](https://github.com/rubenmoreno94) Encargado de la telemetría del equipo Formula UC3M
 
+
 ##### Agradecimientos
 - [Carlos Crisóstomo Vals @Kr0n0](https://github.com/Kr0n0) 
 - Resto del equipo [Formula UC3M](http://formulauc3m.com)
@@ -67,8 +68,8 @@ Los integrantes de los equipos son:
 - **D3.js**: Visualización de la información en forma de graficos potentes
 
 **Back-end**
-- **Goku**: Hosting parael backend en la infraestrcutura de OSW, incluyendo subdominios...
-- **MongoDB**: ALmacenamiento de datos para consulta posterior
+- **Goku**: Hosting para el backend en la infraestrcutura de OSW, incluyendo subdominios...
+- **MongoDB**: Almacenamiento de datos para consulta posterior
 - **Mosca**: Broker MQTT para nodeJS
 
 ### Cómo contribuir en el proyecto
