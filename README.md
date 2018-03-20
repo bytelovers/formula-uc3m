@@ -41,8 +41,10 @@ Esperamos que a los que leáis estas líneas os haya cautivado la idea y os uná
 
 ##### Agradecimientos
 
- - [Rubén Moreno (@rubenmoreno94)](https://github.com/rubenmoreno94) Líder del equipo Formula Student
- - [{{Nombre}} (@dagomezl)](https://github.com/dagomezl) ({{Detalles}})
+ - [Daniel Gómez (@dagomezl)](https://github.com/dagomezl) Líder del equipo Formula UC3M
+ - [Rubén Moreno (@rubenmoreno94)](https://github.com/rubenmoreno94) Encargado de la telemetría del equipo Formula UC3M
+ - [Resto del equipo Formula UC3M]
+
 
 
 ### Tecnología utilizada
@@ -58,8 +60,8 @@ Esperamos que a los que leáis estas líneas os haya cautivado la idea y os uná
 - **D3.js**: Visualización de la información en forma de graficos potentes
 
 **Back-end**
-- **Goku**: Hosting parael backend en la infraestrcutura de OSW, incluyendo subdominios...
-- **MongoDB**: ALmacenamiento de datos para consulta posterior
+- **Goku**: Hosting para el backend en la infraestrcutura de OSW, incluyendo subdominios...
+- **MongoDB**: Almacenamiento de datos para consulta posterior
 - **Mosca**: Broker MQTT para nodeJS
 
 ### Cómo contribuir en el proyecto
