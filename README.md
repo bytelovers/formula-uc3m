@@ -37,7 +37,7 @@ Esperamos que a los que leáis estas líneas os haya cautivado la idea y os uná
  - [Bryan McEire (@mceire)](https://github.com/meceire) (contributor) Fullstack
  - [Carlos Hernandez (@CodingCarlos)](https://github.com/CodingCarlos) (leader) Fullstack
  - [Alfredo de la Calle (@ByteLovers)](https://github.com/bytelovers) (contributor) Fullstack
- - [Jonathan Martín ()](https://github.com/jonasync) (Leader) Frontend
+ - [Jonathan Martín (@jonasync)](https://github.com/jonasync) (Leader) Frontend
 
 ##### Agradecimientos
 
