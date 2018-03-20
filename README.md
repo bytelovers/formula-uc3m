@@ -47,12 +47,12 @@ Los integrantes de los equipos son:
  - [Jonathan Martín (@jonasync)](https://github.com/jonasync) (Leader VisualData) Frontend
 
 **Team Formula**
- - [Rubén Moreno (@rubenmoreno94)](https://github.com/rubenmoreno94) Líder del equipo Formula Student
- - [{{Nombre}} (@dagomezl)](https://github.com/dagomezl) ({{Detalles}})
+ - [Daniel Gómez (@dagomezl)](https://github.com/dagomezl) Líder del equipo Formula UC3M
+ - [Rubén Moreno (@rubenmoreno94)](https://github.com/rubenmoreno94) Encargado de la telemetría del equipo Formula UC3M
 
 ##### Agradecimientos
 - [Carlos Crisóstomo Vals @Kr0n0](https://github.com/Kr0n0) 
-
+- Resto del equipo [Formula UC3M](http://formulauc3m.com)
 
 ### Tecnología utilizada
 
