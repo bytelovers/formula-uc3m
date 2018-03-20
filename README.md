@@ -58,6 +58,11 @@ Esperamos que a los que leáis estas líneas os haya cautivado la idea y os uná
 ### Tecnología utilizada
 
 #### Dependencias
+
+**Hardware**
+- **Arduino MEGA**
+- **Raspberry Pi**
+
 **Front-end**
 - **Vue.js**: {{Explicación de su uso}}
 - **D3.js**: {{Explicación de su uso}}
