@@ -31,79 +31,52 @@ Esperamos que a los que leáis estas líneas os haya cautivado la idea y os uná
 
 ### Equipo
 
- - [Javier Gallego (@bifuer)](https://github.com/bifuer) (Leader) Miembro
- - [Ulises Gascón (@UlisesGascon)](https://github.com/UlisesGascon) (contributor) Miembro
- - [Sebastián Cabañas (@Sediug)](https://github.com/Sediug) (contributor) Miembro
- - [Bryan McEire (@mceire)](https://github.com/meceire) (contributor) Miembro
- - [Carlos Hernandez (@CodingCarlos)](https://github.com/CodingCarlos) (contributor) Miembro
- - [Alfredo de la Calle (@ByteLovers)](https://github.com/bytelovers) (contributor) Miembro
-
+ - [Javier Gallego (@bifuer)](https://github.com/bifuer) (leader) Fullstack
+ - [Ulises Gascón (@UlisesGascon)](https://github.com/UlisesGascon) (contributor) Fullstack
+ - [Sebastián Cabañas (@Sediug)](https://github.com/Sediug) (leader) Fullstack
+ - [Bryan McEire (@mceire)](https://github.com/meceire) (contributor) Fullstack
+ - [Carlos Hernandez (@CodingCarlos)](https://github.com/CodingCarlos) (leader) Fullstack
+ - [Alfredo de la Calle (@ByteLovers)](https://github.com/bytelovers) (contributor) Fullstack
+ - [Jonathan Martín ()](https://github.com/jonasync) (Leader) Frontend
 
 ##### Agradecimientos
 
  - [Rubén Moreno (@rubenmoreno94)](https://github.com/rubenmoreno94) Líder del equipo Formula Student
  - [{{Nombre}} (@dagomezl)](https://github.com/dagomezl) ({{Detalles}})
- - ...
 
-##### Necesitamos
-
-{{Descripción de los perfiles necesarios para el proyecto que aún se necesitan}}.
-
- - {{Nombre del role}}: {{Definición de las tareas}}
-
-### Demo
-
-{{Información de dónde puede verse funcionar... si es posible}}
 
 ### Tecnología utilizada
 
 #### Dependencias
 
 **Hardware**
-- **Arduino MEGA**
-- **Raspberry Pi**
+- **Arduino MEGA** Lectura de sensores del coche
+- **Raspberry Pi** Gestion de la comunicación del coche a nuestro backend via internet
 
 **Front-end**
-- **Vue.js**: {{Explicación de su uso}}
-- **D3.js**: {{Explicación de su uso}}
+- **Vue.js**: Gestión de datos entre Back y front..
+- **D3.js**: Visualización de la información en forma de graficos potentes
 
 **Back-end**
-- **Goku**: Hosting para documentaciones
-- **MongoDB**:
+- **Goku**: Hosting parael backend en la infraestrcutura de OSW, incluyendo subdominios...
+- **MongoDB**: ALmacenamiento de datos para consulta posterior
 - **Mosca**: Broker MQTT para nodeJS
 
 ### Cómo contribuir en el proyecto
-{{Pequeña descripción motivante para enganchar con l@s potenciales contributors}}
+Puedes participar de infinitas formas...
 
 **Más informacion en [CONTRIBUTING.md](CONTRIBUTING.md)**
-
-### ¿Cómo usarlo?.
-
-#### TL:DR;
-
-{{Definición rápida y sencilla de como descargarse el proyecto y empezar a trabajar con el en local}}
-
-#### Instalación
-
-{{Cómo hacer que funcione el proyecto en una máquina de forma local, descríbelo de forma detallada y paso por paso.}}
-
 
 ### Estado del proyecto.
 
 Actualmente nos encontramos en fase de conceptualización. Estamos en el sprint 0 del proyecto, en la cual se espera que para el siguiente sprint ya tengamos las tecnologías y los materiales a nuestro alcance (Fin 30 de Marzo).
 
+[Aquí](https://github.com/OSWeekends/formula-uc3m/milestone/1) puedes ver la carga de trabajo actual
 
-### Releases anteriores
-
-#### [{{Fecha}} {{Nombre release}} {{Version}}]({{Link a la release}})
-- {{Feature añadido o bug resuelto}}. [{{Número del issues}}]({{Link al issue}})
-- ...
 
 ### Licencia
 
-{{Descripción de la licencia utilizada}}
-
-
+[GNU Affero General Public License v3.0](https://github.com/OSWeekends/formula-uc3m/blob/master/LICENSE)
 
 
 ![footer](.osweekends/img/OSW-project-GitHub-template-footer.jpg)
