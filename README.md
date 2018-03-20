@@ -43,7 +43,7 @@ Esperamos que a los que leáis estas líneas os haya cautivado la idea y os uná
 
  - [Daniel Gómez (@dagomezl)](https://github.com/dagomezl) Líder del equipo Formula UC3M
  - [Rubén Moreno (@rubenmoreno94)](https://github.com/rubenmoreno94) Encargado de la telemetría del equipo Formula UC3M
- - [Resto del equipo Formula UC3M]
+ - [Resto del equipo Formula UC3M](http://formulauc3m.com)
 
 
 
