@@ -1,4 +1,4 @@
-![header](../img/OSW-project-GitHub-template-header.jpg)
+![header](.osweekends/img/OSW-project-GitHub-template-header.jpg)
 
 ![travis](https://img.shields.io/travis/OSWeekends/formula-uc3m.svg)
 ![issues abiertos](https://img.shields.io/github/issues/OSWeekends/formula-uc3m.svg)
@@ -13,7 +13,7 @@
 
 > Proyecto para la realización de la telemetría al monoplaza de la UC3M
 
-![Logo de {{proyecto}}](../img/fuc3m-logo.png)
+![Logo de {{proyecto}}](.osweekends/img/fuc3m-logo.png)
 
 Proyecto para la realización de las mediciones de los sensores del monoplaza con el fín de poder ver en tiempo real resultados que ayuden al equipo a optimizar los ajustes del mismo.
 
@@ -94,4 +94,4 @@ Actualmente nos encontramos en fase de conceptualización. Estamos en el sprint 
 
 
 
-![footer](../img/OSW-project-GitHub-template-footer.jpg)
+![footer](.osweekends/img/OSW-project-GitHub-template-footer.jpg)
