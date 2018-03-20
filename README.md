@@ -41,8 +41,8 @@ Esperamos que a los que leáis estas líneas os haya cautivado la idea y os uná
 
 ##### Agradecimientos
 
- - [Rubén Moreno (@rubenmoreno94)](https://ghitub.com/rubenmoreno94) Líder del equipo Formula Student
- - [{{Nombre}} (@dagomezl)](https://ghitub.com/dagomezl) ({{Detalles}})
+ - [Rubén Moreno (@rubenmoreno94)](https://github.com/rubenmoreno94) Líder del equipo Formula Student
+ - [{{Nombre}} (@dagomezl)](https://github.com/dagomezl) ({{Detalles}})
  - ...
 
 ##### Necesitamos
