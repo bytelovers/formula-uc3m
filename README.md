@@ -31,21 +31,29 @@ Esperamos que a los que leáis estas líneas os haya cautivado la idea y os uná
 
 ### Equipo
 
- - [Javier Gallego (@bifuer)](https://github.com/bifuer) (leader) Fullstack
+Nota: Nos dividimos en tres equipo dentro del guild para este proyecto:
+- Team Formula, compuesto por los Alumn@s y profesor@s de FOrmula UC3M
+- Team ArduData, compuesto por gente de OSW centrada en extraer los datos del coche
+- Team VisualData, compuesto por gente de OSW centrada en la representación de los datos en tiempo real en el cliente final
+
+**Team ArduData y Team VisualData**
+Los integrantes de los equipos son:
+ - [Javier Gallego (@bifuer)](https://github.com/bifuer) (leader ArduData) Fullstack
  - [Ulises Gascón (@UlisesGascon)](https://github.com/UlisesGascon) (contributor) Fullstack
- - [Sebastián Cabañas (@Sediug)](https://github.com/Sediug) (leader) Fullstack
+ - [Sebastián Cabañas (@Sediug)](https://github.com/Sediug) (leader ArduData) Fullstack
  - [Bryan McEire (@mceire)](https://github.com/meceire) (contributor) Fullstack
- - [Carlos Hernandez (@CodingCarlos)](https://github.com/CodingCarlos) (leader) Fullstack
+ - [Carlos Hernandez (@CodingCarlos)](https://github.com/CodingCarlos) (leader VisualData) Fullstack
  - [Alfredo de la Calle (@ByteLovers)](https://github.com/bytelovers) (contributor) Fullstack
- - [Jonathan Martín (@jonasync)](https://github.com/jonasync) (Leader) Frontend
+ - [Jonathan Martín (@jonasync)](https://github.com/jonasync) (Leader VisualData) Frontend
 
-##### Agradecimientos
-
+**Team Formula**
  - [Daniel Gómez (@dagomezl)](https://github.com/dagomezl) Líder del equipo Formula UC3M
  - [Rubén Moreno (@rubenmoreno94)](https://github.com/rubenmoreno94) Encargado de la telemetría del equipo Formula UC3M
- - Resto del equipo [Formula UC3M](http://formulauc3m.com)
 
 
+##### Agradecimientos
+- [Carlos Crisóstomo Vals @Kr0n0](https://github.com/Kr0n0) 
+- Resto del equipo [Formula UC3M](http://formulauc3m.com)
 
 ### Tecnología utilizada
 
