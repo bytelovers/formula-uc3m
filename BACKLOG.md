@@ -21,8 +21,11 @@ Aquí se definen todas las funcionalidades que componen nuestro producto final.
 
 Aquí se definen todas las funcionaldiades de caracter tecnico que necsitamos desarrollar/integrar en nuestro producto
 
-- **Arduino Mega con código a pelo:** El Arduino mega gestionará la lectura e interpretación básica de la información
-- ...
+- **Arduino Mega con código a pelo:** El Arduino mega gestionará la lectura e interpretación básica de la información de los sensores
+- **Raspberry 3** Encargada de enviar la información recolectada del arduino + ECU al servidor vía MQTT. Utilizando una tarjeta de 4G
+- **Pillars + Mongo + Mosca** para gestionar toda la disgestión de información como backend.
+- **ApiRest y/o WS** Para facilitar las consultas de front y las consultas por eventos usando realtime
+- **VUE y Charts.js** Param gestionar la visualización y consultas desde el front
 
 #### Otros elementos
 
