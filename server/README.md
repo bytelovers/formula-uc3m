@@ -32,21 +32,22 @@ Una vez realizado esto ya deberían estar instaladas todas las dependencias de e
 
 Una ver realizado esto ya estaría completamente instalado y listo para arrancar (recuerda arrancar el servidor de base de datos antes de arrancar este servidor).
 
-**Iniciar el servidor**
+**Cómo iniciar el servidor**
 
-```shell
+```sh
 npm start
 ```
+Abre la url http://localhost:3001/ (Siendo localhost y 3001 el host y el port que asignaste en el archivo .env).
 
-**Comprobar que pasa los test**
+**Cómo comprobar los test**
 
-```shell
+```sh
 npm test
 ```
 
-**Comprobar que cumple el código cumple la especificación del [linter](https://eslint.org/docs/about/) **
+**Cómo comprobar que el código cumple la especificación del [linter](https://eslint.org/docs/about/)**
 
-```shell
+```sh
 npm run lint
 ```
 
