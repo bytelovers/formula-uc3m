@@ -5,7 +5,7 @@
 
 > Proyecto para la realización de la telemetría al monoplaza de la UC3M. Dentro del proyecto, esta parte se encargará de la gestión del guardado y explotación de datos, en tiempo real.
 
-# Tecnologías
+## Tecnologías
 
 - [**Node JS**](https://nodejs.org/en/): Entorno de ejecución de Javascript que funciona sobre el motor v8 de Google Chrome.
 - [**MongoDB**](https://www.mongodb.com/es): Almacenamiento de datos para consulta en tiempo real.
@@ -13,7 +13,7 @@
 - [**Mosca**](https://github.com/mcollina/mosca/wiki): Broker [MQTT](https://geekytheory.com/que-es-mqtt) para [Node JS](https://nodejs.org/en/).
 - [**Pillars**](http://pillarsjs.com/): Framework de desarrollo web para Node.js.
 
-# Instalación
+## Instalación
 
 Primero clona este repositorio:
 
@@ -51,7 +51,7 @@ npm test
 npm run lint
 ```
 
-# Equipo
+## Equipo
 
 De la creación y gestión del servidor de datos en tiempo real se encargará el equipo ArduData.
 
@@ -60,7 +60,7 @@ De la creación y gestión del servidor de datos en tiempo real se encargará el
 - [Sebastián Cabanas (@Sediug)](https://github.com/Sediug) (lider ArduData) Fullstack
 - Todas las personas que se quieran unir al equipo que envien un PR con su info sustituyendo este mensage :P
 
-# Contribuir
+## Contribuir
 Puedes contribuir, al apartado de backend dentro del proyecto de Formula UC3M, leyendo las [issues con la etiqueta back](https://github.com/OSWeekends/formula-uc3m/issues?q=is%3Aopen+is%3Aissue+label%3ABack).
 
 
