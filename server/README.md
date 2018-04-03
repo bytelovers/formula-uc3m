@@ -1,11 +1,9 @@
 ![header](.osweekends/img/OSW-project-GitHub-template-header.jpg)
 
-# Fórmula UC3M
+# Fórmula UC3M Server
 ## Servidor para guardado y explotación de datos en tiempo real.
 
 > Proyecto para la realización de la telemetría al monoplaza de la UC3M. Dentro del proyecto, esta parte se encargará de la gestión del guardado y explotación de datos, en tiempo real.
-
-![Logo de {{proyecto}}](.osweekends/img/fuc3m-logo.png)
 
 # Tecnologías
 
