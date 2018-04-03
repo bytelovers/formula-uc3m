@@ -1,15 +1,7 @@
 ![header](.osweekends/img/OSW-project-GitHub-template-header.jpg)
 
-![travis](https://img.shields.io/travis/OSWeekends/formula-uc3m.svg)
-![issues abiertos](https://img.shields.io/github/issues/OSWeekends/formula-uc3m.svg)
-![issues promedio](https://img.shields.io/issuestats/i/github/OSWeekends/formula-uc3m.svg)
-![PR Abiertos](https://img.shields.io/github/issues-pr/OSWeekends/formula-uc3m.svg)
-![PR Promedio](https://img.shields.io/issuestats/p/github/OSWeekends/formula-uc3m.svg)
-![último commit](https://img.shields.io/github/last-commit/OSWeekends/formula-uc3m/master.svg)
-![TOP Lang](https://img.shields.io/github/languages/top/OSWeekends/formula-uc3m.svg)
-![total lang](https://img.shields.io/github/languages/count/OSWeekends/formula-uc3m.svg)
-
-# Fórmula UC3M - Servidor para guardado y explotación de datos en tiempo real.
+# Fórmula UC3M
+## Servidor para guardado y explotación de datos en tiempo real.
 
 > Proyecto para la realización de la telemetría al monoplaza de la UC3M. Dentro del proyecto, esta parte se encargará de la gestión del guardado y explotación de datos, en tiempo real.
 
@@ -56,3 +48,5 @@ De la creación y gestión del servidor de datos en tiempo real se encargará el
 - [Javier Gallego (@bifuer)](https://github.com/bifuer) (lider ArduData) Fullstack
 - [Sebastián Cabanas (@Sediug)](https://github.com/Sediug) (lider ArduData) Fullstack
 - Todos los que quieran colaborar PR con su info sustituyendo este mensage :P
+
+![footer](.osweekends/img/OSW-project-GitHub-template-footer.jpg)
