@@ -61,3 +61,9 @@ De la creación y gestión del servidor de datos en tiempo real se encargará el
 - Todas las personas que se quieran unir al equipo que envien un PR con su info sustituyendo este mensage :P
 
 ![footer](.osweekends/img/OSW-project-GitHub-template-footer.jpg)
+
+# Contribuir
+Puedes contribuir, al apartado de backend dentro del proyecto de Formula UC3M, leyendo las [issues con la etiqueta back](https://github.com/OSWeekends/formula-uc3m/issues?q=is%3Aopen+is%3Aissue+label%3ABack).
+
+
+![footer](.osweekends/img/OSW-project-GitHub-template-footer.jpg)
