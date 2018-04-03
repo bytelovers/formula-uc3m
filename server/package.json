@@ -4,7 +4,9 @@
   "description": "Servidor para el proyecto formula-uc3m con guardado y explotación de datos en tiempo real.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "gulp test",
+    "lint": "gulp lint"
   },
   "readme": "README.md",
   "repository": {
@@ -39,5 +41,18 @@
     "mongoose": "^4.13.11",
     "pillars": "^0.6.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "chai": "3.5.0",
+    "chai-fs": "1.0.0",
+    "gulp": "3.9.1",
+    "gulp-debug": "3.0.0",
+    "gulp-eslint": "3.0.1",
+    "gulp-istanbul": "1.1.1",
+    "gulp-jsdoc3": "1.0.1",
+    "gulp-mocha": "3.0.1",
+    "gulp-util": "3.0.8",
+    "mocha": "3.1.2",
+    "mocha-sinon": "1.1.6",
+    "sinon": "1.17.7"
+  }
 }
