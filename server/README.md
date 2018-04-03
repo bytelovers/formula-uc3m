@@ -38,6 +38,18 @@ Una ver realizado esto ya estaría completamente instalado y listo para arrancar
 npm start
 ```
 
+**Comprobar que pasa los test**
+
+```shell
+npm test
+```
+
+**Comprobar que cumple el código cumple la especificación del [linter](https://eslint.org/docs/about/) **
+
+```shell
+npm run lint
+```
+
 # Equipo
 
 De la creación y gestión del servidor de datos en tiempo real se encargará el equipo ArduData.
