@@ -95,7 +95,7 @@
         </div>
       </div>
 
-      <img src="img/coche.png">
+      <!-- <img src="img/coche.png"> -->
 
     </div>
   </div>
