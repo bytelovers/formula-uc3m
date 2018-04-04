@@ -41,7 +41,7 @@ Los integrantes de los equipos son:
  - [Javier Gallego (@bifuer)](https://github.com/bifuer) (leader ArduData) Fullstack
  - [Ulises Gascón (@UlisesGascon)](https://github.com/UlisesGascon) (contributor) Fullstack
  - [Sebastián Cabanas (@Sediug)](https://github.com/Sediug) (leader ArduData) Fullstack
- - [Bryan McEire (@mceire)](https://github.com/meceire) (contributor) Fullstack
+ - [Bryan McEire (@mceire)](https://github.com/mceire) (contributor) Fullstack
  - [Carlos Hernandez (@CodingCarlos)](https://github.com/CodingCarlos) (leader VisualData) Fullstack
  - [Alfredo de la Calle (@ByteLovers)](https://github.com/bytelovers) (contributor) Fullstack
  - [Jonathan Martín (@jonasync)](https://github.com/jonasync) (Leader VisualData) Frontend
