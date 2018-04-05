@@ -1,5 +1,5 @@
 #!/bin/bash
-cd client
+cd ./client
 npm i
 npm run lint
 npm test
