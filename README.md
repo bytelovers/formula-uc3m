@@ -40,8 +40,8 @@ Nota: Nos dividimos en tres equipo dentro del guild para este proyecto:
 Los integrantes de los equipos son:
  - [Javier Gallego (@bifuer)](https://github.com/bifuer) (leader ArduData) Fullstack
  - [Ulises Gascón (@UlisesGascon)](https://github.com/UlisesGascon) (contributor) Fullstack
- - [Sebastián Cabañas (@Sediug)](https://github.com/Sediug) (leader ArduData) Fullstack
- - [Bryan McEire (@mceire)](https://github.com/meceire) (contributor) Fullstack
+ - [Sebastián Cabanas (@Sediug)](https://github.com/Sediug) (leader ArduData) Fullstack
+ - [Bryan McEire (@mceire)](https://github.com/mceire) (contributor) Fullstack
  - [Carlos Hernandez (@CodingCarlos)](https://github.com/CodingCarlos) (leader VisualData) Fullstack
  - [Alfredo de la Calle (@ByteLovers)](https://github.com/bytelovers) (contributor) Fullstack
  - [Jonathan Martín (@jonasync)](https://github.com/jonasync) (Leader VisualData) Frontend
@@ -50,6 +50,8 @@ Los integrantes de los equipos son:
  - [Daniel Gómez (@dagomezl)](https://github.com/dagomezl) Líder del equipo Formula UC3M
  - [Rubén Moreno (@rubenmoreno94)](https://github.com/rubenmoreno94) Encargado de la telemetría del equipo Formula UC3M
 
+**Servidor de datos en tiempo real (en desarrollo)**
+Puedes ver cómo va el desarrollo del servidor de datos en tiempo real [aquí](/server#readme)
 
 ##### Agradecimientos
 - [Carlos Crisóstomo Vals @Kr0n0](https://github.com/Kr0n0) 
@@ -68,9 +70,10 @@ Los integrantes de los equipos son:
 - **D3.js**: Visualización de la información en forma de graficos potentes
 
 **Back-end**
-- **Goku**: Hosting para el backend en la infraestrcutura de OSW, incluyendo subdominios...
-- **MongoDB**: Almacenamiento de datos para consulta posterior
-- **Mosca**: Broker MQTT para nodeJS
+- [**Goku**](http://guilds.osweekends.com/): [Guild](https://github.com/OSWeekends/Guilds) que se encarga de hosting para el backend en la infraestrcutura de OSW, incluyendo subdominios...
+- [**MongoDB**](https://www.mongodb.com/es): Almacenamiento de datos para consulta en tiempo real.
+- [**Mosca**](https://github.com/mcollina/mosca/wiki): Broker [MQTT](https://geekytheory.com/que-es-mqtt) para [NodeJS](https://nodejs.org/en/).
+- [**Pillars**](http://pillarsjs.com/): Framework de desarrollo web para Node.js.
 
 ### Cómo contribuir en el proyecto
 Puedes participar de infinitas formas...
