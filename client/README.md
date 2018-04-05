@@ -1,6 +1,6 @@
-# formula-uc3m-client
+# formula
 
-> Cliente para interpretar los datos recogidos del proyecto formula-uc3m
+> A Vue.js project
 
 ## Build Setup
 
