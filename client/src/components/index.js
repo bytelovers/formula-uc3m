@@ -1,2 +1,10 @@
 /* eslint-disable */
-export { default as IndicatorDirection } from './IndicatorDirection';
+import {
+    IndicatorDirection,
+    IndicatorRpm
+} from './indicators/index';
+
+export {
+    IndicatorDirection,
+    IndicatorRpm,
+};

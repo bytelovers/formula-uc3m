@@ -1,10 +1,8 @@
 <template>
   <div class="page">
     <div class="top-section">
-      <div class="kmh">
-        <span>237</span> km/h
-      </div>
-      <div class="marcha">4</div>
+      <indicator-speedometer />
+      <indicator-gear />
       <div class="pedals">
         <div class="pedal">
           <div class="empty" style="height: 10%"></div>
@@ -13,14 +11,7 @@
           <div class="empty" style="height: 60%"></div>
         </div>
       </div>
-      <div class="rpm">
-        <span>12000 rpm</span>
-        <div class="porcentaje">
-          <div class="fill"></div>
-          <div class="cut"></div>
-        </div>
-        <div class="embrague"></div>
-      </div>
+      <indicator-rpm />
     </div>
 
     <div class="car">
@@ -90,12 +81,20 @@
 </template>
 
 <script>
-import { IndicatorDirection } from '../components/index';
+import {
+  IndicatorDirection,
+  IndicatorRpm,
+  IndicatorSpeedometer,
+  IndicatorGear,
+} from '../components/Indicators/index';
 
 export default {
   name: 'Mockup',
   components: {
     IndicatorDirection,
+    IndicatorRpm,
+    IndicatorSpeedometer,
+    IndicatorGear,
   },
   data() {
     return {
@@ -141,26 +140,6 @@ export default {
       display: none;
     }
 
-  .kmh {
-    display: inline-block;
-    height: 10vh;
-    line-height: 10vh;
-    font-size: 2em;
-  }
-    .kmh span {
-      font-size: 4em;
-    }
-
-  .marcha {
-    background-color: lightgrey;
-    border: 1px solid grey;
-    color: black;
-    font-size: 4em;
-    line-height: 10vw;
-    height: 10vw;
-    width: 10vw;
-  }
-
   .pedal {
     height: 15vh;
     width: 4vw;
@@ -171,45 +150,6 @@ export default {
       height: 100%;
       vertical-align: top;
       width: 100%;
-    }
-
-  .rpm {
-    width: 30vw;
-  }
-
-    .rpm span {
-      width: 100%;
-      height: 4vh;
-      font-size: 2em;
-    }
-
-    .rpm .porcentaje {
-      background-color: lightgrey;
-      height: 4vh;
-      margin: 1vh 0;
-      position: relative;
-      text-align: left;
-      width: 90%;
-    }
-      .rpm .porcentaje .fill {
-        background-color: green;
-        height: 100%;
-        width: 60%;
-      }
-
-      .rpm .porcentaje .cut {
-        position: absolute;
-        right: -5vh;
-        background-color: red;
-        height: 100%;
-        width: 4vh;
-      }
-
-    .rpm .embrague {
-      width: 90%;
-      height: 4vh;
-      background-color: yellow;
-      margin: 1vh 0;
     }
 
   /**/
