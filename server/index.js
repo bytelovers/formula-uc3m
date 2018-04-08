@@ -1,50 +1,29 @@
-const app = require('pillars');
-const mosca = require('mosca');
-
-// Load .env config.
+// Cargando archivo de configuración .env.
 console.info('Cargando archivos de configuración');
 require('dotenv').config();
 
-// Add routes to the pillars project.
+const project = require('pillars');
+const moscaMQTTServer = require('./src/mqtt/mosca');
+
+// Añadiendo rutas al servidor web.
 console.info('Añadiendo rutas.');
 require('./src/routes');
 
-const formula_rt = {
-	type: 'mongo',
-	url: process.env.MONGODB_URI,
-	pubsubCollection: 'formula_rt',
-	mongo: {}
-};
-
-const settings = {
-	port: parseInt(process.env.MQTT_PORT),
+// Configurando servidor web (pillars).
+const http = project.services.get('http');
+// project.config.favicon = "favico.ico";
+project.config.debug = process.env.DEBUG_MODE;
+http.configure({
 	host: process.env.HOST,
-	backend: formula_rt
-};
-
-const server = new mosca.Server(settings);
-
-server.on('clientConnected', client => {
-	console.log('client connected', client.id);
-	console.log("-------- FUCKING CONNECTED!!! ---")
+	port: parseInt(process.env.WEB_PORT)
 });
 
-// fired when a message is received
-server.on('published', (packet, client) => {
-	console.log('Published', packet.payload);
-	console.log("-------- FUCKING MSG!!! ---")
-});
+// Enganchar un servicio http con pillars al servidor mqtt de mosca.
+moscaMQTTServer.attachHttpServer(http.server);
 
-// fired when the mqtt server is ready
-server.on('ready', () => {
-	// Configure pillars project and connect to mongoDB
-	app.config.debug = process.env.DEBUG_MODE;
-	// app.config.favicon = "favico.ico";
-
-	app.services.get('http').configure({
-		host: process.env.HOST,
-		port: parseInt(process.env.WEB_PORT)
-	}).start();
-
+// Evento que se lanza cuando el servidor mqtt está listo.
+moscaMQTTServer.on('ready', () => {
+	// Arrancar servidor web
+	http.start();
 	console.info(`Servidor corriendo en: http://${ process.env.HOST }:${ process.env.WEB_PORT }`);
 });
