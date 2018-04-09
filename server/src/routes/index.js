@@ -1,5 +1,6 @@
 /*global Route */
 const routes = require('pillars').routes;
+const paths = require('path');
 
 // Static Files and main route
 const mainRoute = new Route({
@@ -15,7 +16,7 @@ var pillarsDocsStatic = new Route({
 	id: 'pillarsDocsStatic',
 	path: '/*:path',
 	directory: {
-		path: './public',
+		path: paths.resolve(__dirname, '../public'),
 		listing: true
 	}
 });
