@@ -11,6 +11,17 @@ const mainRoute = new Route({
 	gw.file('./src/public/index.html');
 });
 
+var pillarsDocsStatic = new Route({
+	id: 'pillarsDocsStatic',
+	path: '/*:path',
+	directory: {
+		path: './public',
+		listing: true
+	}
+});
+
+mainRoute.routes.add(pillarsDocsStatic);
+
 // Add routes to the server
 console.info('Añadiendo rutas al servidor.');
 routes.add(mainRoute);
