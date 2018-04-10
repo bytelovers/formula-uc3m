@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "test": "gulp test",
-    "lint": "gulp lint"
+    "lint": "gulp lint",
+    "build:client": "cd ../client && npm run build && cd ../server && rm -r ./src/public/static && mv ../client/dist/* ./src/public && gulp inject"
   },
   "readme": "README.md",
   "repository": {
@@ -47,12 +48,14 @@
     "gulp": "3.9.1",
     "gulp-debug": "3.0.0",
     "gulp-eslint": "3.0.1",
+    "gulp-inject-partials": "^1.0.4",
     "gulp-istanbul": "1.1.1",
     "gulp-jsdoc3": "1.0.1",
     "gulp-mocha": "3.0.1",
     "gulp-util": "3.0.8",
     "mocha": "3.1.2",
     "mocha-sinon": "1.1.6",
+    "path": "^0.12.7",
     "sinon": "1.17.7"
   }
 }

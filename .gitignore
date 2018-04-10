@@ -58,6 +58,7 @@ typings/
 .env
 
 #VS Code
+.vscode
 .history
 
 #Operative Systems
