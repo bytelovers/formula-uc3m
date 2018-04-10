@@ -106,7 +106,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.page {background: url("../assets/formula.svg"); background-size: cover;}
+.page {background: url("../assets/C3-R18F.svg"); background-size: cover;}
   div {
     display: inline-block;
     text-align: center;
