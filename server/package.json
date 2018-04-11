@@ -4,7 +4,7 @@
   "description": "Servidor para el proyecto formula-uc3m con guardado y explotación de datos en tiempo real.",
   "main": "index.js",
   "scripts": {
-    "start": "build:client && node index.js",
+    "start": "npm run build:client && node index.js",
     "test": "gulp test",
     "lint": "gulp lint",
     "install:client": "cd ../client && npm install",
