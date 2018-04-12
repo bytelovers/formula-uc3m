@@ -7,6 +7,7 @@
     "start": "npm run build:client && node index.js",
     "test": "gulp test",
     "lint": "gulp lint",
+    "start:server": "node index.js",
     "install:client": "cd ../client && npm install",
     "build:client": "cd ../client && npm run build && cd ../server && rm -r ./src/public/static && mv ../client/dist/* ./src/public && gulp inject"
   },
