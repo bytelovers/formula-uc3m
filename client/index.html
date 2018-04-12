@@ -36,6 +36,7 @@
           });
 
           mqttService.subscribe("formula/realtime-data");
+          mqttService.subscribe("formula/realtime-fake-data");
           mqttService.publish("formula/realtime-data", JSON.stringify({
             probando: 'a publicar algo...'
           }));

@@ -30,6 +30,6 @@ moscaMQTTServer.on('ready', () => {
 	console.info(`Servidor corriendo en: http://${ process.env.HOST }:${ process.env.WEB_PORT }`);
 
 	// Enviar fake data en tiempo real.
-	console.info('Enviando fake data cada 20 milisegundos al topic formula/realtime-data');
+	console.info('Enviando fake data cada 20 milisegundos al topic formula/realtime-fake-data');
 	faker(moscaMQTTServer, 20);
 });

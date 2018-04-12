@@ -2,7 +2,7 @@
 const faker = function(moscaMQTTServer, everyMs) {
 	function publish() {
 		moscaMQTTServer.publish({
-			topic: 'formula/realtime-data',
+			topic: 'formula/realtime-fake-data',
 			payload: JSON.stringify({
 				date: new Date()
 			}),
