@@ -1,3 +1,5 @@
+const faker = require('./src/mqtt/faker');
+
 // Cargando archivo de configuración .env.
 console.info('Cargando archivos de configuración');
 require('dotenv').config();
@@ -26,4 +28,8 @@ moscaMQTTServer.on('ready', () => {
 	// Arrancar servidor web
 	http.start();
 	console.info(`Servidor corriendo en: http://${ process.env.HOST }:${ process.env.WEB_PORT }`);
+
+	// Enviar fake data en tiempo real.
+	console.info('Enviando fake data cada 20 milisegundos al topic formula/realtime-data');
+	faker(moscaMQTTServer, 20);
 });
