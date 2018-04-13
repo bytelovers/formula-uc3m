@@ -1,7 +1,6 @@
 <template>
   <div class="kmh">
     <span>237</span> km/h
-    <div class="marcha">4</div>
   </div>
 </template>
 
