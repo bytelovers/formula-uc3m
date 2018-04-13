@@ -4,9 +4,11 @@
   "description": "Servidor para el proyecto formula-uc3m con guardado y explotación de datos en tiempo real.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "npm run build:client && node index.js",
     "test": "gulp test",
     "lint": "gulp lint",
+    "start:server": "node index.js",
+    "install:client": "cd ../client && npm install",
     "build:client": "cd ../client && npm run build && cd ../server && rm -r ./src/public/static && mv ../client/dist/* ./src/public && gulp inject"
   },
   "readme": "README.md",
@@ -20,7 +22,7 @@
     "formula",
     "open cource",
     "formula-uc3m",
-    "real-time-server"
+    "real-time-data"
   ],
   "author": {
     "name": "Javier Gallego",
