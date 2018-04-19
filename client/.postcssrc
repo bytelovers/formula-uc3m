@@ -1,6 +1,5 @@
 {
   "plugins": {
-    "autoprefixer": {},
-    "cssnext": {}
+    "autoprefixer": {}
   }
 }
