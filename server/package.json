@@ -7,13 +7,7 @@
     "start": "npm run build:client && node index.js",
     "test": "gulp test",
     "lint": "gulp lint",
-<<<<<<< HEAD
-    "start:server": "node index.js",
-    "install:client": "cd ../client && npm install",
-    "build:client": "cd ../client && npm run build && cd ../server && rm -r ./src/public/static && mv ../client/dist/* ./src/public && gulp inject"
-=======
     "build:client": "cd ../client && npm run build && rm -r ../server/src/public && mkdir -p ../server/src/public && cp -R ./dist/* ../server/src/public"
->>>>>>> feature/migration
   },
   "readme": "README.md",
   "repository": {
@@ -45,7 +39,9 @@
   "homepage": "https://github.com/OSWeekends/formula-uc3m/tree/master/server#readme",
   "dependencies": {
     "dotenv": "^5.0.1",
+    "mongoose": "^5.0.14",
     "mosca": "^2.8.1",
+    "nconf": "^0.10.0",
     "pillars": "^0.6.4"
   },
   "devDependencies": {

@@ -1,4 +1,5 @@
 const mosca = require('mosca');
+const store = require("../store");
 
 // Configurar mosca conectado a mongodb
 const settings = {
@@ -33,6 +34,8 @@ moscaMQTTServer.on('published', (packet, client) => {
 			`Cliente ${ client.id } publicando los datos: `,
 			packet.payload.toString()
 		);
+	} else if (packet.topic === 'data') {
+		store.save(client.id, packet.payload);
 	} else if (!packet.topic.toLowerCase().startsWith('$sys')) {
 		console.log(
 			'Cliente "' + client.id + '" publicando datos en el topic ' +
