@@ -4,10 +4,10 @@
   "description": "Servidor para el proyecto formula-uc3m con guardado y explotación de datos en tiempo real.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "npm run build:client && node index.js",
     "test": "gulp test",
     "lint": "gulp lint",
-    "build:client": "cd ../client && npm run build && cd ../server && rm -r ./src/public/static && mv ../client/dist/* ./src/public && gulp inject"
+    "build:client": "cd ../client && npm run build && rm -rf ../server/src/public && mkdir -p ../server/src/public && cp -R ./dist/* ../server/src/public"
   },
   "readme": "README.md",
   "repository": {
@@ -20,7 +20,7 @@
     "formula",
     "open cource",
     "formula-uc3m",
-    "real-time-server"
+    "real-time-data"
   ],
   "author": {
     "name": "Javier Gallego",
@@ -39,7 +39,9 @@
   "homepage": "https://github.com/OSWeekends/formula-uc3m/tree/master/server#readme",
   "dependencies": {
     "dotenv": "^5.0.1",
+    "mongoose": "^5.0.14",
     "mosca": "^2.8.1",
+    "nconf": "^0.10.0",
     "pillars": "^0.6.4"
   },
   "devDependencies": {
