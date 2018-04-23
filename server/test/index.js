@@ -7,7 +7,7 @@ require('mocha-sinon');
 chai.use(require('chai-fs'));
 
 describe('Test Server:', () => {
-	it('Expect true to be true', () => {
-		expect(true).to.be.true;
-	});
+ it('Expect true to be true', () => {
+  expect(true).to.be.true;
+ });
 });

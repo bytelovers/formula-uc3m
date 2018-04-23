@@ -21,7 +21,7 @@
 			"args": "none"
 		}],
 		"no-console" : [1, { "allow": ["warn", "error", "info"]}],
-		"indent": [1, "tab", {"SwitchCase": 1}],
+		"indent": ["error", 1, { "SwitchCase": 1 }],
 		"curly": [1, "all"],
 		"semi": [1, "always"],
 		"dot-notation": 1,
